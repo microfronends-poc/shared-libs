@@ -1,0 +1,16 @@
+{
+  "name": "@mf/shared-libs",
+  "version": "1.0.0",
+  "description": "Shared libs across MF's in format of importmap.json, that should be included before root+apps importmap",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode=development --port 8443"
+  },
+  "author": "AV",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
