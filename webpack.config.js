@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = () => ({
 	entry: './package.json', // just to have smth in entry point
 	output: {
-		publicPath: './shared-libs-importmap.json'
+		publicPath: './importmap.json'
 	},
 	devServer: {
 		historyApiFallback: true,
